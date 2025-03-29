@@ -1,0 +1,19 @@
+/** @format */
+@import 'tailwindcss';
+@import './styles_default.css';
+
+:root {
+  --orange: rgb(255, 123, 0);
+  --blue: rgb(0, 0, 130);
+  --white: #fff;
+  --main-background-image: url('../images/background.png');
+
+  /* Dont change below Code
+  ____________________________
+  */
+  --footerLinkColor: var(--orange);
+  --footerLinkColorHover: var(--blue);
+  --backgroundImage: var(--main-background-image);
+  --mainMenuColor: var(--blue);
+  --mainMenuColorHover: var(--orange);
+}

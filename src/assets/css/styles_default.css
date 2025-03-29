@@ -1,0 +1,150 @@
+/** @format */
+
+@font-face {
+  font-family: landasans;
+  src: url('../Fonts/landasans-font/LandasansUltraLight-qZ080.otf');
+}
+
+.eatContainer {
+  width: 1124px;
+  margin: 0 auto;
+}
+
+.quote {
+  font-size: 24px;
+  color: rgb(0, 0, 130);
+  font-family: landasans;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.pageBody {
+  padding-top: 50px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.eatransfers > .main {
+  background-image: var(--backgroundImage);
+  background-repeat: no-repeat;
+}
+
+.eatransfersBody {
+  margin-top: 50px;
+  background: #fff;
+  padding-top: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.tabs {
+  border: 1px solid rgb(192, 192, 192);
+  width: fit-content;
+  padding: 10px 24px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  margin-bottom: 10px;
+}
+.activeTab {
+  background-color: #f08000;
+  color: #fff;
+}
+
+.inActiveTab {
+  background-color: #939393;
+  color: #fff;
+}
+.phoneBox {
+  border: 1px solid rgb(148, 148, 148);
+
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.transferFormComponents div {
+  border: 1px solid gray;
+  padding: 0 7px 0 10px;
+  background: #fff;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.transferFormComponents input {
+  padding: 5px 10px;
+  width: 100%;
+}
+
+.tabsContainer {
+  background: rgba(255, 255, 255, 0.5);
+  padding: 0 20px 20px 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 50px 8px #9b9b9b;
+}
+
+.row2 {
+  line-height: 0.5;
+  padding-left: 20px;
+}
+
+.p1 {
+  font-family: landasans;
+  font-size: 80px;
+  color: rgb(240 128 0);
+  font-weight: bold;
+  text-shadow: 0 0 10px #fff;
+}
+
+.p2 {
+  font-family: landasans;
+  font-size: 50px;
+  color: rgb(0, 0, 130);
+  font-weight: bold;
+  text-shadow: 0 0 20px #fff;
+}
+
+.transferFormComponents > .buttonBox {
+  border: unset;
+  background: unset;
+  padding: unset;
+  text-align: right;
+}
+
+.aboutus p {
+  padding-top: 20px;
+  line-height: 1.5;
+  font-size: medium;
+}
+
+.imagesWrapped {
+  float: left;
+  width: 600px;
+  padding-right: 24px;
+  padding-bottom: 24px;
+}
+
+.imagesWrappedRight {
+  float: right;
+  padding-left: 24px;
+  padding-right: unset;
+  padding-bottom: unset;
+}
+.address {
+  padding-top: 20px;
+}
+.address p {
+  padding: 0;
+}
+.footer p {
+  font-size: small;
+  letter-spacing: 0;
+}
+
+.footer a:hover {
+  color: var(--footerLinkColor);
+}
+
+.footer a {
+  color: var(--footerLinkColorHover);
+}
